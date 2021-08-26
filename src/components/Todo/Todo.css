@@ -1,0 +1,113 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #B79ECE;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+.alert{
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.todo-form{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+    margin-top: 100px;
+}
+.todo-input{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #393C49;
+    box-shadow: 0px 0px 5px 5px rgb(144 156 156);
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid #EA7C69;
+    color: #889898;
+   
+}
+.create-todo-btn{
+    border: none;
+    border-radius: 10px;
+    background-color: #EA7C69;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px;
+    box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.32);
+    margin-left: 10px;
+    border: 1px solid #da381b ;
+}
+.todo-list{
+    list-style: none;
+    margin-top: 20px;
+    height: 60vh;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+.todo-list::-webkit-scrollbar{
+    width: 5px;
+}
+.todo-list::-webkit-scrollbar-thumb{
+    background-color: #000;
+    border-radius: 50px;
+}.todo-list::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+.todo-list__item{
+    display: flex;
+    align-items: center;
+    background-color: #1F1D2B;
+    margin-top: 12px;
+    border-radius: 10px;
+    position: relative;
+    padding: 0 20px;
+    border: 1px solid #EA7C69;
+    transition: all 1.5s;
+}
+.todo__text{
+    padding: 10px 10px 10px 60px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 24px;
+    transition: all 1.5s;
+
+}
+.delete-todo{
+    background: transparent;
+    border: 1px solid #EA7C69;
+    padding: 8px 10px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    margin-left: 20px;
+    
+}
+.edit-todo{
+    background: transparent;
+    border: 1px solid #EA7C69;
+    padding: 8px 9px;
+    border-radius: 10px;
+    outline: none;
+    margin-left: auto;
+    cursor: pointer;
+}
+.check{
+    background-color: #fff;
+}
+.check-text{
+    color:#EA7C69 ;
+}
