@@ -146,7 +146,7 @@ body{
         padding: 0 20px;
     }
     .todo__text{
-        padding: 10px 10px 10px auto;
+        padding: 10px 10px 10px 35px;
         font-size: 16px;
     
     }
