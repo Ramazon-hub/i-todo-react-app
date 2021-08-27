@@ -19,7 +19,7 @@ body{
     font-weight: bold;
 }
 .todo-form{
-    width: 40%;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -29,7 +29,6 @@ body{
 .todo-input{
     padding: 10px;
     border-radius: 10px;
-    border: none;
     outline: none;
     background-color: #393C49;
     box-shadow: 0px 0px 5px 5px rgb(144 156 156);
@@ -110,4 +109,52 @@ body{
 }
 .check-text{
     color:#EA7C69 ;
+}
+@media only screen and (max-width:500px){
+    .alert{
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    .todo-form{
+        width: 350px;
+        padding: 10px;
+        margin-top: 100px;
+    }
+    .todo-input{
+        padding: 7px;
+        font-size: 18px;
+        width: 200px;
+       
+    }
+    .create-todo-btn{
+        font-size: 14px;
+        padding: 6px;
+        margin-left: 10px;
+    }
+    .todo-list{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        height: 60vh;
+        padding-right: 0px;
+    }
+   
+    .todo-list__item{
+        margin-top: 10px;
+        padding: 0 20px;
+    }
+    .todo__text{
+        padding: 10px 10px 10px auto;
+        font-size: 16px;
+    
+    }
+    .delete-todo{
+        padding: 5px 6px;
+        margin-left: 20px;
+        
+    }
+    .edit-todo{
+        padding: 5px 5px;
+    }
 }

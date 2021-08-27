@@ -107,7 +107,7 @@ function Todo(){
                                         className="delete-todo" 
                                         onClick={deleteClick}
                                         data-id={e.id}>
-                                            <DeleteSvg/>
+                                            <DeleteSvg className="del"/>
                                         </button>
                                       </li>
 
