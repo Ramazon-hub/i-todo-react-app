@@ -148,7 +148,7 @@ body{
     .todo__text{
         padding: 10px 10px 10px 35px;
         font-size: 16px;
-        width: 100px;
+        width: 200px;
         flex-wrap: wrap;
     
     }
