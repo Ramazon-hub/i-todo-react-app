@@ -138,7 +138,7 @@ body{
         margin-top: 10px;
         height: 60vh;
         padding-right: 0px;
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     }
    
     .todo-list__item{
