@@ -118,7 +118,7 @@ body{
     .todo-form{
         width: 350px;
         padding: 10px;
-        margin-top: 100px;
+        margin-top: 60px;
     }
     .todo-input{
         padding: 7px;
@@ -138,6 +138,7 @@ body{
         margin-top: 10px;
         height: 60vh;
         padding-right: 0px;
+        overflow-x: hidden;
     }
    
     .todo-list__item{
@@ -152,9 +153,11 @@ body{
     .delete-todo{
         padding: 5px 6px;
         margin-left: 20px;
+        border: none;
         
     }
     .edit-todo{
         padding: 5px 5px;
+        border: none;
     }
 }
